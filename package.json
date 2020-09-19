@@ -1,5 +1,6 @@
 {
   "name": "template-node-api-javascript",
+  "description": "Node API template using Express, Sucrase, Sequelize, Express validator and Postgress",
   "version": "1.0.0",
   "main": "./src/server.js",
   "repository": "https://github.com/mateuschaves/template-node-api-javascript.git",
