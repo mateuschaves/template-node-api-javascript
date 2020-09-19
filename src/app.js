@@ -5,7 +5,7 @@ import express from "express";
 import "express-async-errors";
 
 import routes from "./app/routes";
-import "./app/database";
+import "./database";
 
 dotenv.config();
 
