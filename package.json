@@ -7,8 +7,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "sucrase ./src -d ./dist --transforms imports",
-    "start": "node ./dist/server.js"
+    "build": "sucrase ./src -w ./dist --transforms imports",
+    "start": "node ./dist/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
